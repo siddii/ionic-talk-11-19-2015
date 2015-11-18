@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Build Mobile Apps using Ionic</title>
+
+		<meta name="description" content="Build Mobile Apps using Ionic">
+		<meta name="author" content="Siddique Hameed">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+		<script>
+			if( window.location.search.match( /print-pdf/gi ) ) {
+				var link = document.createElement( 'link' );
+				link.rel = 'stylesheet';
+				link.type = 'text/css';
+				link.href = 'css/print/pdf.css';
+				document.getElementsByTagName( 'head' )[0].appendChild( link );
+			}
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+        <style type="text/css">
+            .reveal h2 {
+                text-transform: none;
+            }
+            .reveal h3 {
+                text-transform: none;
+            }
+            .reveal h6 {
+                text-transform: none;
+            }
+            .reveal h2 {
+                text-transform: none;
+            }
+            .reveal .intro {
+                color: #ffffff;
+            }
+        </style>
+    </head>
+
+	<body>
+
+		<div class="reveal">
+
+			<div class="slides">
+				<section class="intro" data-background="images/IMG_3734.JPG" data-transition="zoom">
+					<h1 style="color: #ffffff;">Build Mobile Apps using Ionic</h1>
+						<h4 style="color: #ffffff;">By</h4>
+						<h5 style="color: #ffffff;">Siddique Hameed</h5>
+                        <i style="color: #ffffff;"><a target="_new" href="http://twitter.com/siddii">@siddii</a></i><br/>
+                        <i style="color: #ffffff;"><a target="_new" href="http://github.com/siddii">http://github.com/siddii</a></i><br/>
+                        <i style="color: #ffffff;"><a target="_new" href="https://www.linkedin.com/in/siddiquehameed">https://www.linkedin.com/in/siddiquehameed</a></i><br/>
+                        <br/>
+                        <h6 style="color: #ffffff;">11/19/2015</h6>
+				</section>
+
+                <section data-background="#dddddd">
+                    <h5>Learning Ionic?</h5>
+                    <img style="height: 592px; width: 450px" src="images/book-cover.jpg"/>
+                </section>
+
+                <section data-transition="concave">
+                    <img style="height: 622px; width: 622px" src="images/idea-for-an-app.jpg"/>
+                </section>
+
+                <section data-background="#dddddd">
+                    <h2>What is Ionic ?</h2>
+                    <ul>
+                        <li class="fragment">Hybrid mobile app development framework</li>
+                        <li class="fragment">Based on the modern Web technologies HTML5, CSS3, etc. that web developers love
+                        </li>
+                        <li class="fragment">Built on the shoulders of AngularJS</li>
+                        <li class="fragment">Native glue by Apache Cordova</li>
+                        <li class="fragment">Visually appealing UI components (Looks very close to Native)</li>
+                        <li class="fragment">Performance Obsessed</li>
+                    </ul>
+                </section>
+
+
+                <section data-background="#dddddd">
+					<h2>Why Ionic?</h2>
+                    <ul>
+                        <li class="fragment">Native app development is very expensive & isn't for everyone</li>
+                        <li class="fragment">How many platforms & form-factors are you going to support?
+                            <ul>
+                                <li class="fragment">iPhone 6, 6+, Nexus 6, Nexus 6P etc.</li>
+                            </ul>
+                        </li>
+                        <li class="fragment">How many code bases are you going to support?</li>
+                        <li class="fragment">Rapid prototyping?</li>
+                        <li class="fragment">Web is <i>"The First Class Platform"</i></li>
+                        <li class="fragment">Web components are easier to customize than Native components</li>
+                        <li class="fragment">WebView has come a long way... even Android's WebView is Chromium based</li>
+                    </ul>
+				</section>
+
+                <section data-background="#dddddd" data-transition="concave">
+                    <h2>Ionic Stack</h2>
+                    <table style="width: 100%; text-align:center">
+                        <tr>
+                            <td class="fragment"><img src="images/angularjs.png"></td>
+                            <td class="fragment"><img src="images/cordova.png"></td>
+                            <td class="fragment"><img src="images/gulp.png"></td>
+                        </tr>
+                        <tr>
+                            <td class="fragment"><img src="images/sass.png"></td>
+                            <td class="fragment"><img src="images/bower.jpeg"></td>
+                            <td class="fragment" style="vertical-align: middle"><h2>And More...</h2></td>
+                        </tr>
+                    </table>
+                </section>
+
+                <section data-background="#dddddd" data-transition="concave">
+                    <h2>UI Components</h2>
+                    <ul>
+                        <li class="fragment">Navigation
+                        <ul>
+                            <li class="fragment">Using Angular UI Router</li>
+                            <li class="fragment">Back button support</li>
+                        </ul>
+                        </li>
+                        <li class="fragment">Tabs</li>
+                        <li class="fragment">Side Menu</li>
+                        <li class="fragment">Action Sheet</li>
+                        <li class="fragment">Popover</li>
+                        <li class="fragment">Modal</li>
+                        <li class="fragment">Lists</li>
+                        <li class="fragment">Complex Lists</li>
+                        <li class="fragment">& more...</li>
+                    </ul>
+                </section>
+
+                <section data-background="#dddddd" data-transition="concave">
+                    <h4>Native Plugins - http://ngcordova.com/docs/plugins/</h4>
+                    <ul>
+                        <li class="fragment">Device Motion</li>
+                        <li class="fragment">Camera</li>
+                        <li class="fragment">Push Notifications</li>
+                        <li class="fragment">Touch Id</li>
+                        <li class="fragment">Geolocation</li>
+                        <li class="fragment">Vibration</li>
+                        <li class="fragment">Barcode Scanner</li>
+                        <li class="fragment">& more...</li>
+                    </ul>
+                </section>
+
+                <section data-transition="slide">
+                    <h2>Demo Time!</h2>
+                </section>
+
+                <section>
+                    <h3>References</h3>
+                    <ul>
+                        <li><a href="http://ionicframework.com/present-ionic/slides/#/1">http://ionicframework.com/present-ionic/slides/#/1</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Q & A</h2>
+                </section>
+
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+				slideNumber: true,
+
+				theme: 'beige', // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
